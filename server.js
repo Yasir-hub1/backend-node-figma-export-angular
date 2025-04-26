@@ -39,7 +39,7 @@ app.use('/api/projects', projectRoutes);
 app.use('/api/components', componentRoutes);
 
 // Conexión a la base de datos
-mongoose.connect('mongodb+srv://sol:oQ4ryE6rkoCSkaS3@figma.qmqcr5m.mongodb.net/?retryWrites=true&w=majority&appName=figma/figma-angular-generator', {
+mongoose.connect('mongodb+srv://kmontalvan330:f7oYWcDFtsimQRVI@cluster0.zhtfrvq.mongodb.net/?retryWrites=true&w=majority&appName=figkaren', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })
